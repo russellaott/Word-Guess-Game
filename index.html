@@ -1,0 +1,71 @@
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Word Guess Game</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  
+  <div class="container-fluid">
+     <div class="jumbotron">
+      <div class="container">
+        <h1>King of The Jungle Word Game</h1>
+        <h2>Guess the type of animal thats attacking you!:</h2>
+        <small></small><br>
+        </div>
+    </div>
+
+    
+    <div class="row">
+      <div class="col-12">
+         <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title"><strong>What animal is currently attacking you?</strong></h3>
+          </div>
+          <div class="panel-body">
+                 <h3 id="word-blanks">_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ </h3>
+          </div>
+        </div>
+
+        
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <strong>Wrong Letters: </strong> <span id="wrong-guesses"></span>
+          </div>
+        </div>
+
+        
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <strong>Lives Remaining: </strong> <span id="guesses-left">10</span>
+          </div>
+        </div>
+
+        
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <strong>Wins: </strong> <span id="wins">0</span>
+          </div>
+        </div>
+
+        
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <strong>Losses: </strong> <span id="losses">0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <script src="./assets/javascript/game.js"></script>
+</body>
+
+</html>

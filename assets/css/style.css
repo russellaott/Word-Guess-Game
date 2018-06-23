@@ -1,0 +1,15 @@
+
+
+
+  h2{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body{
+    background-image: url("http://www.kinyu-z.net/data/wallpapers/185/1353480.jpg");
+
+  }
+  strong{
+    color: rgb(103, 6, 6);
+    text-emphasis-color: blue;
+    text-align: center;
+  }
